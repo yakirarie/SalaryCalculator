@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "902110008868",
+    "firebase_url": "https://salarycalculator-67df6.firebaseio.com",
+    "project_id": "salarycalculator-67df6",
+    "storage_bucket": "salarycalculator-67df6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902110008868:android:8dace88c5839e60e",
+        "android_client_info": {
+          "package_name": "com.example.yakirlaptop.salarycalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902110008868-3k3ijrp3f5jpk8mdqqh16roppusbgqtg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yakirlaptop.salarycalculator",
+            "certificate_hash": "a5e56d27dedb3b07c9074667ed7548ff20040af7"
+          }
+        },
+        {
+          "client_id": "902110008868-18tfv4t0e9e0caf73o9ku5j0rvpngnao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoluHErPQ7lTf_G5nHbOiWz-VlfibV7cI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902110008868-18tfv4t0e9e0caf73o9ku5j0rvpngnao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

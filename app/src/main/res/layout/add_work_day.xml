@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:layout_editor_absoluteY="25dp"
+    android:id="@+id/layout_f1">
+
+    <Button
+        android:id="@+id/button_choosehours2"
+        android:layout_width="256dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="125dp"
+        android:text="@string/end_hour"
+        app:layout_constraintBottom_toTopOf="@+id/button_add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_choosehours" />
+
+    <EditText
+        android:id="@+id/ETpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/enter_shekels_per_hour"
+        android:inputType="number"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_chooseday"
+        app:layout_constraintStart_toStartOf="@+id/button_chooseday"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="165dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="185dp"
+        android:background="@color/add"
+        android:onClick="add"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_choosehours2" />
+
+    <Button
+        android:id="@+id/button_chooseday"
+        android:layout_width="256dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/choose_day"
+        app:layout_constraintBottom_toTopOf="@+id/button_choosehours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETpay" />
+
+    <Button
+        android:id="@+id/button_choosehours"
+        android:layout_width="256dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/start_hour"
+        app:layout_constraintBottom_toTopOf="@+id/button_choosehours2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_chooseday" />
+
+</android.support.constraint.ConstraintLayout>

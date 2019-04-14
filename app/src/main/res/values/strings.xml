@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">חשב שכר</string>
+    <string name="title_activity_main">Main</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="end_hour">שעת סיום</string>
+    <string name="enter_shekels_per_hour">הכנס שכר שעתי</string>
+    <string name="add">הוסף</string>
+    <string name="choose_day">בחר יום</string>
+    <string name="start_hour">שעת התחלה</string>
+    <string name="Add_Work_Day">הוספת יום עבודה</string>
+    <string name="View_Hours">סיכום שעות עבודה</string>
+    <string name="Press_back_again_to_exit">הקש שוב כדי לצאת</string>
+    <string name="please_enter_valid_ending_hours">אנא הכנס שעת סיום תקינה</string>
+    <string name="added_succesfully">יום נוסף בהצלחה</string>
+    <string name="error_occured">קרתה שגיאה</string>
+    <string name="please_fill_all_of_the_fields">אנא מלא את כל השדות</string>
+    <string name="Click_To_Delete">לחץ למחיקה</string>
+    <string name="calculate_salary">חשב משכורת לחודש</string>
+    <string name="delete_month">מחק חודש</string>
+    <string name="Delete_This_Month">למחוק את החודש?</string>
+    <string name="confirm">אישור</string>
+    <string name="Month_deleted">החודש נמחק</string>
+    <string name="cancel">ביטול</string>
+    <string name="Delete_This_Day">למחוק את היום?</string>
+    <string name="Day_deleted">היום נמחק</string>
+
+
+</resources>
